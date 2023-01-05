@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
 @SpringBootApplication
-
+@EnableAspectJAutoProxy
 public class ExamenSpringApplication {
 
     public static void main(String[] args) {
